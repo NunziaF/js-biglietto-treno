@@ -11,7 +11,7 @@ var anni = prompt("Quanti anni hai?");
 var costo = km * 0.21;
 console.log(costo);
 
-// calcolo il costo dei biglietti con lo sconto per minorenni e anziani
+// calcolo il costo dei biglietti con lo sconto per minorenni del 20% e per gli anziani del 40% (mi salvo il resultato)
 var costomin = costo * 0.80;
 var costoanz = costo * 0.60;
 
